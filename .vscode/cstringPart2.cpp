@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstring>
+
 using namespace std;
 
 class Manusia{
@@ -40,7 +41,7 @@ bool checkString(char* str){
 int main(){
     const char* nama[3] = {"siska","Budi","mane"};
     int nData = sizeof(nama)/sizeof(nama[0]);
-    
+
     for (int i = 0; i < nData; i++){
         int nString = strlen(nama[i]);
         for (int j= 0; j < nString; j++){
@@ -51,13 +52,6 @@ int main(){
     
     return 0;
 } 
-
-
-
-
-
-
-
 
     // int n;
     // cin>>n;
